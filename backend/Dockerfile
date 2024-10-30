@@ -1,6 +1,6 @@
 FROM node:20
 LABEL authors="VENKATESH"
-ENV DB_HOST="localhost"
+ENV DB_HOST="mysql"
 EXPOSE 8080
 RUN mkdir /opt/server
 WORKDIR /opt/server
